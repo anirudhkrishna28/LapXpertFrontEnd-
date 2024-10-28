@@ -1,0 +1,44 @@
+.shop-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .shop-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .shop-photo {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .laptops-container {
+    margin-top: 30px;
+  }
+  
+  .laptops-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .laptop-card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .laptop-photo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
